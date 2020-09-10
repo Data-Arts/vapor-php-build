@@ -387,7 +387,6 @@ RUN set -xe \
         --enable-mbstring \
         --enable-soap \
         --with-pdo-mysql=shared,mysqlnd \
-        --with-pgsql=${INSTALL_DIR} \
         --enable-pcntl \
         --enable-zip \
         --with-pdo-pgsql=shared,${INSTALL_DIR} \
