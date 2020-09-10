@@ -411,6 +411,7 @@ RUN set -xe \
         --with-pdo-mysql=shared,mysqlnd \
         --enable-pcntl \
         --with-zip \
+        --with-pgsql=${INSTALL_DIR} \
         --with-pdo-pgsql=shared,${INSTALL_DIR} \
         --enable-intl=shared
 

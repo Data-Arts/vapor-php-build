@@ -410,6 +410,7 @@ RUN set -xe \
         --with-pear \
         --enable-mbstring \
         --enable-soap \
+        --with-pgsql=${INSTALL_DIR} \
         --with-pdo-mysql=shared,mysqlnd \
         --enable-pcntl \
         --with-zip \

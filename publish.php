@@ -6,7 +6,7 @@ use Symfony\Component\Process\Process;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-Dotenv::createImmutable(__DIR__)->safeLoad();
+//Dotenv::createImmutable(__DIR__)->safeLoad();
 
 $layers = [
     'php-73' => 'Laravel Vapor PHP 7.3',
